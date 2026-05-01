@@ -1,0 +1,15 @@
+name = "QaoaVerifier"
+uuid = "e8f3c2a1-5b7d-4f9e-a1c3-d2e4f5a6b7c8"
+authors = ["John S Azariah <john.azariah@gmail.com>"]
+version = "1.0.0"
+
+[deps]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "1.9"

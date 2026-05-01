@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "QAOA Satisfaction Fraction Verifier"
+version: 1.0.0
+date-released: 2026-05-01
+license: MIT
+repository-code: "https://github.com/johnazariah/qaoa-verifier"
+authors:
+  - family-names: Azariah
+    given-names: John S
+    orcid: "https://orcid.org/0009-0007-9870-1970"
+    affiliation: "Centre for Quantum Software and Information, UTS"
+abstract: >-
+  Standalone verifier for QAOA satisfaction fractions on D-regular
+  Max-k-XORSAT. Given pre-computed QAOA angles (γ, β) and problem
+  parameters (k, D), computes the exact satisfaction fraction using
+  the Basso/Villalonga branch tensor recurrence on the light-cone tree.
+  Companion code for Shutty et al. (arXiv:2604.24633).
+keywords:
+  - QAOA
+  - quantum computing
+  - XORSAT
+  - MaxCut
+  - combinatorial optimization

@@ -1,0 +1,4 @@
+Manifest.toml
+results/*.csv
+results/*.txt
+*.cov
